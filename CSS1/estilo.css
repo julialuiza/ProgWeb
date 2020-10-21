@@ -1,0 +1,12 @@
+.bloco {
+  border: 10px solid black;
+  border-top-left-radius: 16px;
+  border-bottom-left-radius: 56px;
+  border-top-right-radius: 60px;
+  border-bottom-right-radius: 16px;
+  background-color: #c7c7c7;
+}
+
+p {
+  padding: 0 2em 0 2em;
+}
