@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JS6</title>
+  <script src="script.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <h1>Um Gráfico de Barras</h1>
+  <form name="formBarras" onsubmit="graficoBarras();return false">
+    <label for="barra1">Informe a altura das barras: </label>
+    <input name="barra1" id="barra1" type="number">
+    <input name="barra2" id="barra2" type="number">
+    <input name="barra3" id="barra3" type="number">
+    <input name="barra4" id="barra4" type="number">
+    <input name="barra5" id="barra5" type="number"><br>
+
+    <label for="largura">Informe a largura das barras: </label>
+    <input name="largura" id="largura" type="number"><br><br>
+
+    <button type="submit">Desenhar o gráfico</button>
+  </form>
+
+  <div class="barra" id="bar1"></div>
+  <div class="barra" id="bar2"></div>
+  <div class="barra" id="bar3"></div>
+  <div class="barra" id="bar4"></div>
+  <div class="barra" id="bar5"></div>
+</body>
+
+</html>

@@ -1,0 +1,12 @@
+form {
+  margin-bottom: 20px;
+}
+
+input {
+  width: 60px;
+}
+
+.barra {
+  display: inline-block;
+  background-color: red;
+}
